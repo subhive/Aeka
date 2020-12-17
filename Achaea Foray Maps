@@ -1,0 +1,56 @@
+++ ACHAEA FORAY MAPS by Aeka ++
+
+Instructions:
+  1. For each map, create a new ALIAS; e.g. map kesh, map mt (use matching type = exact match)
+  2. For each alias, set the ACTION to EXECUTE SCRIPT
+  3. Copy/Paste the code between each --- section below into the corresponding scipt box
+  4. Save
+
+--------------------------------------------------
+
+// Aran'kesh Foray Map by Aeka
+
+ow_Write("#output_main", "<span class='mono' style='color: #0000A0;'>--- </span><span style='color: #808000;'>Foray: Aran'kesh</span><span style='color: #0000A0;'> ------------------------</span>");
+print(" ");
+ow_Write("#output_main", "<span class='mono' style='color: #800000;'>    [<span class='mono' style='color: #666666;'>A</span>]</span>");
+print(" ");
+ow_Write("#output_main", "<span class='mono' style='color: #800000;'>    [=]                     [<span class='mono' style='color: #808000;'>@</span>]</span>");
+print(" ");
+ow_Write("#output_main", "<span class='mono' style='color: #800080;'>    [=]     <span class='mono' style='color: #AAAAAA;'>[ ]</span><span style='color: #800080;'>         [<span class='mono' style='color: #666666;'>H</span>]<span class='mono' style='color: #AAAAAA;'>-</span>[<span class='mono' style='color: #666666;'>H</span>]</span>");
+ow_Write("#output_main", "<span class='mono' style='color: #AAAAAA;'>               \\       /</span>");
+ow_Write("#output_main", "<span class='mono' style='color: #800080;'>    [^]</span><span class='mono' style='color: #AAAAAA;'>         [ ]-[<span class='mono' style='color: #666666;'>H</span>]</span>");
+ow_Write("#output_main", "<span class='mono' style='color: #AAAAAA;'>       \\       /</span>");
+ow_Write("#output_main", "<span class='mono' style='color: #800080;'>        [ ]<span class='mono' style='color: #AAAAAA;'>-</span>[ ]</span>");
+print(" ");
+print(" ");
+print("Note:", "#666666");
+print(" H = Harpoon", "#666666");
+print(" A = Aran'kesh", "#666666");
+print(" ");
+
+--------------------------------------------------
+
+// Mirror Tower Foray Map by Aeka
+
+ow_Write("#output_main", "<span class='mono' style='color: #0000A0;'>--- </span><span style='color: #808000;'>Foray: Mirror Tower</span><span style='color: #0000A0;'> ---------------------</span>");
+print(" ");
+ow_Write("#output_main", "<span class='mono' style='color: #AAAAAA;'>                          [<span class='mono' style='color: #666666;'>C</span>]</span>");
+ow_Write("#output_main", "<span class='mono' style='color: #AAAAAA;'>                           |</span>");
+ow_Write("#output_main", "<span class='mono' style='color: #AAAAAA;'>                          [<span class='mono' style='color: #666666;'>B</span>]</span>");
+ow_Write("#output_main", "<span class='mono' style='color: #AAAAAA;'>                         /   \\</span>");
+ow_Write("#output_main", "<span class='mono' style='color: #AAAAAA;'>                      [ ]- - -[_]</span>");
+ow_Write("#output_main", "<span class='mono' style='color: #940000;'>                               .</span>");
+ow_Write("#output_main", "<span class='mono' style='color: #AAAAAA;'>           <span class='mono' style='color: #940000;'>. . . .</span>[_]          </span><span class='mono' style='color: #940000;'>.</span>");
+ow_Write("#output_main", "<span class='mono' style='color: #AAAAAA;'>           <span class='mono' style='color: #940000;'>.</span>     /<span class='mono' style='color: #666666;'>* *</span>\\ </span></span><span class='mono' style='color: #940000;'>. . . . .</span>");
+ow_Write("#output_main", "<span class='mono' style='color: #AAAAAA;'>           <span class='mono' style='color: #940000;'>.</span>  [ ]- - -[^]");
+ow_Write("#output_main", "<span class='mono' style='color: #940000;'>           .</span>");
+ow_Write("#output_main", "<span class='mono' style='color: #AAAAAA;'>          [^]</span>");
+ow_Write("#output_main", "<span class='mono' style='color: #AAAAAA;'>         /   \\</span>");
+ow_Write("#output_main", "<span class='mono' style='color: #00FF00;'>  [</span><span class='mono' style='color: #808000;'>@</span><span style='color: #00FF00;'>]</span><span class='mono' style='color: #AAAAAA;'> [<]- - -[ ]</span>");
+print(" ");
+print(" ");
+print("Note:", "#666666");
+print(" * = PACE between rooms", "#666666");
+print(" B = Bell", "#666666");
+print(" C = Candle", "#666666");
+print(" ");
